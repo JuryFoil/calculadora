@@ -1,0 +1,36 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+h1{
+    font-family:cursive;
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-style:italic;
+}
+
+input{
+    font-size: large;
+    text-align: justify;
+}
+
+button {
+    border-radius: 5px;
+    font-size: x-large;
+    padding: 8px;
+    align-items: center;
+    
+}
+h2{
+    color: cadetblue;
+    font-size:xx-large;
+    font-weight:1000;
+}
