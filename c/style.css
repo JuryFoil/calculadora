@@ -27,7 +27,18 @@ button {
     font-size: x-large;
     padding: 8px;
     align-items: center;
+    width: 25%;
     
+}
+.botonClick{
+    width: 15%;
+    height: 5%;
+    background-color: red;
+    box-shadow: 10px 5px blue;
+    
+}
+.Click2{
+    background-color: aqua;
 }
 h2{
     color: cadetblue;

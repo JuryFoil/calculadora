@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+    <div id="calculator">
+        <div id="screenContainer">
+            <input type="text" id='pantallaCalculadora'>
+        </div>
+        <div id="buttonContainer">    
+                <button id='uno' onclick='addToScreen("1")'>1</button>
+                <button id='dos' onclick='addToScreen("2")'>2</button>
+                <button id='tres' onclick='addToScreen("3")'>3</button>
+                <button id='multiplicar' onclick='addToScreen("*")'>x</button>
+                <button id="limpiar">C</button>
+                <button id='cuatro' onclick='addToScreen("4")'>4</button>
+                <button id='cinco' onclick='addToScreen("5")'>5</button>
+                <button id='seis' onclick='addToScreen("6")'>6</button>
+                <button id='dividir' onclick='addToScreen("/")'>÷</button>
+                <button id='borrar'>⌫</button>
+                <button id='siete' onclick='addToScreen("7")'>7</button>
+                <button id='ocho' onclick='addToScreen("8")'>8</button>
+                <button id='nueve' onclick='addToScreen("9")'>9</button>
+                <button id='sumar' onclick='addToScreen("+")'>+</button>
+                <button id='igual' onclick='result()'>=</button>
+                <button id='cero' onclick='addToScreen("0")'>0</button>
+                <button id='punto' onclick='addToScreen(".")'>.</button>
+                <button id='dbcero' onclick='addToScreen("00")'>00</button>
+                <button id='restar' onclick='addToScreen("-")'>-</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

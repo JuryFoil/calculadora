@@ -1,0 +1,54 @@
+div#calculator{
+    margin:auto;
+    width: 550px;
+    height: 700px;
+    border: none;
+    background-color:#363636;
+    border-radius: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+#pantallaCalculadora{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+    width: 510px;
+    height: 130px;
+    margin: 40px 20px;
+    border:none;
+    border-radius: 15px;
+}
+#buttonContainer{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 95px 95px 95px 95px 95px;
+    grid-gap: 8px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+button{
+    outline: none;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: dimgray ;
+    color: whitesmoke;
+    font: inherit;
+    font-size: 25px;
+    box-shadow: 5px 3px 5px black;
+}
+
+#limpiar{
+    font-size: 30px;
+    background-color:rgb(250, 189, 48);
+    color: black;
+}
+#igual{
+    height: 206px;
+    font-size: 60px;
+    background-color: rgb(250, 189, 48);
+}
+#borrar{
+    background-color:rgb(250, 109, 48);
+}
+#multiplicar, #dividir, #sumar, #restar{
+    background-color: aqua;
+    color: black;
+    border-radius: 30px;
+}
